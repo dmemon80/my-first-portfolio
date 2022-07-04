@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .hire-me-button {
@@ -31,11 +32,29 @@ section {
 
 .half-width img {
     width: 80%;
-    float: right;
-    padding-right: 50px;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.download-resume-button {
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.dream-big-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p {
+    width: 70%;
 }

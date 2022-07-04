@@ -10,9 +10,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 
 .hire-me-button {

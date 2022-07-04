@@ -5,3 +5,37 @@ body {
 h1 {
     font-size: 50px;
 }
+
+.name-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.hire-me-button {
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+    float: right;
+    padding-right: 50px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
